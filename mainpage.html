@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Forest-世界在你眼前</title>
+    <meta charset="utf-8"/>
+    <link href="style.css" rel="stylesheet" type="text/css"> 
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body onLoad="showheadpage()">
+    <div id="head">
+        <div id="head_top">
+            <div id="logopicture">
+                <a href="#" title="Forest 世界在你眼前" onclick="showheadpage()";><img src="logoforest.png" width=170px;height=70px;></a>
+            </div>    
+            <table id="chooselist" border="1"style="border-collapse:collapse;">
+                <tr align="center" >
+                    <td><a href="">首页</a></td>
+                    <td><a href="">排行</a></td>
+                    <td><a href="">上传</a></td>
+                    <td><a href="">下载</a></td>
+                    <td><a href="">主页</a></td>
+                </tr>
+            </table>
+            <!--顶部搜索框-->
+            <div id="search">
+                <form id="all_search" action="#" target="_self">      
+                    <input id="search_input" type="text" style="background-color:transparent";>
+                    <button type="submit" id="search_button" >搜索</button>
+                </form>
+            </div>
+            <!--登录注册部分-->
+            <div id="login-signup">
+                <a href="#" target="_blank" title="点此登录Forest" id="log_in"onclick="window.open('login.html')">登录</a>
+                <a href="#" title="点此注册Forest新账号" id="sign_up"onclick="window.open('signup.html')">注册</a>
+            </div>
+        </div>
+        <!--视频导航条-->
+        <div id="videotype">
+            <ul id="types">
+                <li><a href="#" class="home"name="a" >首页</a></li>
+                <li><a href="#" name="a" >电视</a></li>     
+                <li><a href="#" name="a">电影</a></li>    
+                <li><a href="#" name="a">动漫</a></li>
+                <li><a href="#" name="a">综艺</a></li>
+                <li><a href="#" name="a">音乐</a></li>
+                <li><a href="#" name="a">资讯</a></li>   
+                <li><a href="#" name="a">体育</a></li>   
+                <li><a href="#" name="a">科技</a></li>
+                <li><a href="#" name="a">纪录</a></li>
+                <li><a href="#" name="a">公益</a></li>   
+                <li><a href="#" name="a">时尚</a></li>   
+                <li><a href="#" name="a">旅游</a></li>   
+                <li><a href="#" name="a">军事</a></li>
+            </ul> 
+        </div>
+    </div>
+
+    <!--中间视频部分部分-->
+    <div id="mainbody">
+        <div class="part1" id="headpage" name="part1" display="block">
+            <!--轮播图部分-->
+            <div id="container" >
+                <div id="list" style="left:-3960px;">
+                    <div class="videolist"id="list3">
+                        <div class="video1" >
+                            <a href="#"title="匆匆那年" target="video" ><img class="pic1" src="匆匆那年.jpg" ><span class="span1"></span> </a>  
+                            <a href="#" class="word">匆匆那年</a> 
+                        </div>
+                        <div class="video1">
+                            <a href="#"title="风中奇缘" trget="video"><img class="pic1" src="风中奇缘.jpg"><span class="span2"></span></a>  
+                            <a href="#" class="word">风中奇缘</a>
+                        </div>
+                        <div class="video1">
+                            <a href="#"title="刘亦菲" trget="video"><img class="pic1" src="刘亦菲.jpg"><span class="span3"></span></a>  
+                            <a href="#" class="word">刘亦菲</a>
+                        </div>
+                    </div>
+                    <div class="videolist"id="list1">
+                        <div class="video1" >
+                            <a href="#"title="&lt;欢乐颂&gt;杨烁登场" target="video" ><img class="pic1" src="欢乐颂.jpg" ><span class="span1"></span> </a>  
+                            <a href="#" class="word">&lt;欢乐颂&gt;杨烁登场</a>
+                        </div>
+                        <div class="video1">
+                            <a href="#"title="&lt;穹顶之下&gt;第三季" trget="video"><img class="pic1" src="穹顶之下.jpg"><span class="span2"></span></a>  
+                            <a href="#" class="word">&lt;穹顶之下&gt;第三季</a>
+                        </div>
+                        <div class="video1">
+                            <a href="#"title="&lt;琅琊榜&gt;" trget="video"><img class="pic1" src="胡歌.jpg"><span class="span3"></span></a>  
+                            <a href="#" class="word">&lt;琅琊榜&gt;</a>
+                        </div>
+                    </div>
+                    <div class="videolist"id="list2">
+                        <div class="video1" >
+                            <a href="#"title="傲慢与偏见" target="video" ><img class="pic1" src="傲慢与偏见.jpg" ><span class="span1"></span> </a>  
+                            <a href="#" class="word">傲慢与偏见</a>
+                        </div>
+                        <div class="video1">
+                            <a href="#"title="怦然心动" trget="video"><img class="pic1" src="怦然心动.jpg"><span class="span2"></span></a>  
+                            <a href="#" class="word">怦然心动</a>
+                        </div>
+                        <div class="video1">   
+                            <a href="#"title="美丽人生" trget="video"><img class="pic1" src="美丽人生.jpg"><span class="span3"></span></a>  
+                            <a href="#" class="word">美丽人生</a>
+                        </div>
+                    </div>
+                    <div class="videolist"id="list3">
+                        <div class="video1" >
+                            <a href="#"title="匆匆那年" target="video" ><img class="pic1" src="匆匆那年.jpg" ><span class="span1"></span> </a>  
+                            <a href="#" class="word">匆匆那年</a>
+                        </div>
+                        <div class="video1">
+                            <a href="#"title="风中奇缘" trget="video"><img class="pic1" src="风中奇缘.jpg"><span class="span2"></span></a>  
+                            <a href="#" class="word">风中奇缘</a>
+                        </div>
+                        <div class="video1">
+                            <a href="#"title="刘亦菲" trget="video"><img class="pic1" src="刘亦菲.jpg"><span class="span3"></span></a>  
+                            <a href="#" class="word">刘亦菲</a>
+                        </div>
+                    </div>
+                    <div class="videolist"id="list1">
+                        <div class="video1" >
+                            <a href="#"title="&lt;欢乐颂&gt;杨烁登场" target="video" ><img class="pic1" src="欢乐颂.jpg" ><span class="span1"></span> </a>  
+                            <a href="#" class="word">&lt;欢乐颂&gt;杨烁登场</a>
+                        </div>
+                        <div class="video1">
+                            <a href="#"title="&lt;穹顶之下&gt;第三季" trget="video"><img class="pic1" src="穹顶之下.jpg"><span class="span2"></span></a>  
+                            <a href="#" class="word">&lt;穹顶之下&gt;第三季</a>
+                        </div>
+                        <div class="video1">
+                            <a href="#"title="&lt;琅琊榜&gt;" trget="video"><img class="pic1" src="胡歌.jpg"><span class="span3"></span></a>  
+                            <a href="#" class="word">&lt;琅琊榜&gt;</a>
+                        </div>
+                    </div>   
+                </div>
+            </div>
+        <a href="javascript:;" id="prev" class="arrow">&lt;</a>
+        <a href="javascript:;" id="next" class="arrow">&gt;</a>
+        </div>  
+    
+ 
+        <div class="part1" name="part1" style="display:none">
+            <div class="video1"> 
+                <a href="#"title="&lt;太子妃&gt;" trget="video"><img class="pic1" src="太子妃.jpg"><span class="span1"></a>  
+                <a href="#" class="word">&lt;太子妃&gt;</a> 
+            </div>
+            <div class="video1">
+                <a href="#"title="&lt;红高粱&gt;" trget="video"><img class="pic1" src="红高粱.jpg"><span class="span2"></span></a>  
+                <a href="#" class="word">&lt;红高粱&gt;</a> 
+            </div>
+            <div class="video1">  
+                <a href="#"title="&lt;母仪天下&gt;" trget="video"><img class="pic1" src="赵飞燕.jpg"><span class="span3"></span></a>  
+                <a href="#" class="word">&lt;母仪天下&gt;</a> 
+            </div>
+        </div>  
+
+        <div class="part1" name="part1"style="display:none">
+            <div class="video1">    
+                <a href="#"title="暮光之城" trget="video"><img class="pic1" src="暮光之城1.jpg"><span class="span1"></span></a>  
+                <a href="#" class="word">暮光之城</a> 
+            </div>
+            <div class="video1">
+                <a href="#"title="灰姑娘" trget="video"><img class="pic1" src="灰姑娘.jpg"><span class="span2"></span></a>  
+                <a href="#" class="word">灰姑娘</a> 
+            </div>
+            <div class="video1">  
+                <a href="#"title="阿凡达" trget="video"><img class="pic1" src="阿凡达.jpg"><span class="span3"></span></a>  
+                <a href="#" class="word">阿凡达</a> 
+            </div>
+        </div>  
+
+        <div class="part1" name="part1"style="display:none">
+            <div class="video1">    
+                <a href="#"title="千与千寻" trget="video"><img class="pic1" src="电车.jpg"><span class="span1"></span></a>  
+                <a href="#" class="word">千与千寻</a> 
+            </div>
+            <div class="video1">
+                <a href="#"title="萤火之森" trget="video"><img class="pic1" src="萤火之森.jpg"><span class="span2"></span></a>  
+                <a href="#" class="word">萤火之森</a>
+            </div>
+            <div class="video1">
+                <a href="#"title="秦时明月" trget="video"><img class="pic1" src="秦时明月.jpg"><span class="span3"></span><span></span></a>  
+                <a href="#" class="word">秦时明月</a> 
+            </div>
+        </div> 
+
+        <div class="part1"  name="part1"style="display:none">
+            <div class="video1">
+                <a href="#"title="&lt;花儿与少年&gt;" trget="video"><img class="pic1" src="花儿与少年.jpg"><span class="span1"></a>  
+                <a href="#" class="word">&lt;花儿与少年&gt;</a>
+            </div>
+            <div class="video1">
+                <a href="#"title="&lt;十二道锋味&gt;" trget="video"><img class="pic1" src="十二道锋味.jpg"><span class="span2"></span></a>  
+                <a href="#" class="word">&lt;十二道锋味&gt;</a> 
+            </div>
+            <div class="video1">  
+                <a href="#"title="&lt;爸爸去哪儿&gt;" trget="video"><img class="pic1" src="爸爸去哪儿.jpg"><span class="span3"></span></a>  
+                <a href="#" class="word">&lt;爸爸去哪儿&gt;</a>
+            </div>
+        </div>  
+
+        <div class="part1"  name="part1"style="display:none">
+            <div class="video1">    
+                <a href="#"title="&lt;中国好声音&gt;" trget="video"><img class="pic1" src="周杰伦.jpg"><span class="span1"></a>  
+                <a href="#" class="word">&lt;中国好声音&gt;</a> 
+            </div>
+            <div class="video1">
+                <a href="#"title="&lt;我是歌手&gt;" trget="video"><img class="pic1" src="我是歌手.jpg"><span class="span2"></span></a>  
+                <a href="#" class="word">&lt;我是歌手&gt;</a>
+            </div>
+            <div class="video1">  
+                <a href="#"title="&lt;张信哲&gt;" trget="video"><img class="pic1" src="张信哲.jpg"><span class="span3"></span></a>  
+                <a href="#" class="word">&lt;张信哲&gt;</a> 
+            </div>
+        </div>  
+
+        <div class="part1"  name="part1"style="display:none">
+            <div class="video1">    
+                <a href="#"title="习近平：科技是国之利器" trget="video"><img class="pic1" src="习近平.jpg"><span class="span1"></a>  
+                <a href="#" class="word">习近平：科技是国之利器</a> 
+            </div>
+            <div class="video1">
+                <a href="#"title="世界环境日 地球环境需要“野性的呼唤”" trget="video"><img class="pic1" src="环境.jpg"><span class="span2"></span></a>  
+                <a href="#" class="word">世界环境日 地球环境需要“野性的呼唤</a> 
+            </div>
+            <div class="video1">  
+                <a href="#"title="法国洪水肆虐 卢浮宫被迫闭馆转移珍藏文物" trget="video"><img class="pic1" src="卢浮宫.jpg"><span class="span3"></span></a>  
+                <a href="#" class="word">法国洪水肆虐 卢浮宫被迫闭馆转移珍藏文物</a> 
+            </div>
+        </div>  
+
+        <div class="part1" name="part1"style="display:none">
+            <div class="video1">    
+                <a href="#"title="梅西十大犯罪式过人" trget="video"><img class="pic1" src="梅西.jpg"><span class="span1"></span></a>  
+                <a href="#" class="word">梅西十大犯罪式过人</a> 
+            </div>
+            <div class="video1">
+                <a href="#"title="科比亮相颁奖礼，获评十年最佳运动员" trget="video"><img class="pic1" src="科比.jpg"><span class="span2"></span></a>  
+                <a href="#" class="word">科比亮相颁奖礼，获评十年最佳运动员</a>
+            </div>
+            <div class="video1">  
+                <a href="#"title="美国91岁老太破尘封15年800米世界纪录" trget="video"><img class="pic1" src="800米.jpg"><span class="span3"></span><span></span></a>  
+                <a href="#" class="word">美国91岁老太破尘封15年800米世界纪录</a>  
+            </div>
+        </div>  
+
+        <div class="part1" name="part1"style="display:none">
+            <div class="video1">
+                <a href="#"title="未来Impossible自行车将问世 电动可折叠放背包" trget="video"><img class="pic1" src="自行车.jpg"><span class="span1"></span></a>  
+                <a href="#" class="word">未来Impossible自行车将问世 电动可折叠放背包</a>
+            </div>
+            <div class="video1">
+                <a href="#"title="首届ＷＣＴＦ世界黑客大师挑战赛在北京拉开战幕" trget="video"><img class="pic1" src="黑客.jpg"><span class="span2"></span></a>  
+                <a href="#" class="word">首届WCTF世界黑客大师挑战赛在北京拉开战幕</a> 
+            </div>
+            <div class="video1">  
+                <a href="#"title="NASA最新设计实现同温层高度监控 无人空中飞船" trget="video"><img class="pic1" src="飞船.jpg"><span class="span3"></span><span></span></a>  
+                <a href="#" class="word">NASA最新设计实现同温层高度监控 无人空中飞船</a> 
+            </div>
+        </div>  
+
+        <div class="part1" name="part1"style="display:none">
+            <div class="video1">    
+                <a href="#"title="BBC 地平线：平行宇宙" trget="video"><img class="pic1" src="宇宙.jpg"><span class="span1"></span></a>  
+                <a href="#" class="word">BBC 地平线：平行宇宙</a>
+            </div>
+            <div class="video1">
+                <a href="#"title="舌尖上的中国" trget="video"><img class="pic1" src="舌尖上的中国.jpg"><span class="span2"></span></a>  
+                <a href="#" class="word">舌尖上的中国</a>
+            </div>
+            <div class="video1">  
+                <a href="#"title="BBC 美丽中国" trget="video"><img class="pic1" src="美丽中国.jpg"><span class="span3"></span><span></span></a>  
+                <a href="#" class="word">BBC 美丽中国</a>
+            </div>
+        </div>  
+
+        <div class="part1" name="part1"style="display:none">
+            <div class="video1">    
+                <a href="#"title="中国正式组建核应急救援“国家队”" trget="video"><img class="pic1" src="救援队.jpg"><span class="span1"></span></a>  
+                <a href="#" class="word">中国正式组建核应急救援“国家队”</a>
+            </div>
+            <div class="video1">
+                <a href="#"title="“人与海洋”主题讲座在京举行" trget="video"><img class="pic1" src="海洋.jpg"><span class="span2"></span></a>  
+                <a href="#" class="word">“人与海洋”主题讲座在京举行</a>
+            </div>
+            <div class="video1">  
+                <a href="#"title="公益中国九人行”——“慈善法解读大型互动对话”" trget="video"><img class="pic1" src="公益.jpg"><span class="span3"></span><span></span></a>  
+                <a href="#" class="word">公益中国九人行”——“慈善法解读大型互动对话”</a>
+            </div>
+        </div>  
+
+        <div class="part1"  name="part1"style="display:none">
+            <div class="video1">    
+                <a href="#"title="昆凌登《Marie Claire》台版6月封面" trget="video"><img class="pic1" src="昆凌.jpg"><span class="span1"></a>  
+                <a href="#" class="word">昆凌登《Marie Claire》台版6月封面</a>  
+            </div>
+            <div class="video1">
+                <a href="#"title="漫步街头 Emporio Armani 2016春夏广告花絮" trget="video"><img class="pic1" src="春夏.jpg"><span class="span2"></span></a>  
+                <a href="#" class="word">漫步街头 Emporio Armani 2016春夏广告花絮</a>
+            </div>
+            <div class="video1">  
+                <a href="#"title="2016春夏纽约时装周" trget="video"><img class="pic1" src="时装周.jpg"><span class="span3"></span></a>  
+                <a href="#" class="word">2016春夏纽约时装周</a>
+            </div>
+        </div>  
+
+        <div class="part1" name="part1"style="display:none">
+            <div class="video1">
+                <a href="#"title="希腊 爱琴海" trget="video"><img class="pic1" src="希腊.jpg"><span class="span1"></span></a>  
+                <a href="#" class="word">希腊 爱琴海</a> 
+            </div>
+            <div class="video1">
+                <a href="#"title="古老埃及" trget="video"><img class="pic1" src="埃及.jpg"><span class="span2"></span></a>  
+                <a href="#" class="word">古老埃及</a> 
+            </div>
+            <div class="video1"> 
+                <a href="#"title="新西兰" trget="video"><img class="pic1" src="新西兰.jpg"><span class="span3"></span><span></span></a>  
+                <a href="#" class="word">新西兰</a>
+            </div>
+        </div>  
+
+        <div class="part1"  name="part1"style="display:none">
+            <div class="video1">    
+                <a href="#"title="中国海军攻破世界性难题 或研发出探雷新装备" trget="video"><img class="pic1" src="海军.jpg"><span class="span1"></a>  
+                <a href="#" class="word">中国海军攻破世界性难题 或研发出探雷新装备</a> 
+            </div>
+            <div class="video1">
+                <a href="#"title="辽宁舰" trget="video"><img class="pic1" src="辽宁舰.jpg"><span class="span2"></span></a>  
+                <a href="#" class="word">辽宁舰</a> 
+            </div>
+            <div class="video1">  
+                <a href="#"title="中国空军大规模演习" trget="video"><img class="pic1" src="空军.jpg"><span class="span3"></span></a>  
+                <a href="#" class="word">中国空军大规模演习</a> 
+            </div>
+        </div>  
+
+
+        <div class="current_text">
+            正在热播
+        </div>
+
+        <div class="part2" id="third">
+            <div class="video">    
+                <a href="#"title="山海经之赤影传说" trget="video"><img class="pic" src="山海经.jpg"></a>  
+                <a href="#" class="word">山海经之赤影传说</a> 
+            </div>
+            <div class="video">
+                <a href="#"title="北京遇上西雅图" trget="video"><img class="pic" src="西雅图.jpg"></a>  
+                 <a href="#" class="word">北京遇上西雅图</a> 
+            </div>
+            <div class="video">  
+                <a href="#"title="&lt;美国往事&gt;" trget="video"><img class="pic" src="美国往事.jpg"></a>  
+                <a href="#" class="word">&lt;美国往事&gt;</a> 
+            </div>
+            <div class="video"> 
+                <a href="#"title="&lt;幻城&gt;独家片场日记" trget="video"><img class="pic" src="幻城.jpg"></a>  
+                <a href="#" class="word">&lt;幻城&gt;独家片场日记</a>  
+            </div>
+            <div class="video"> 
+                <a href="#"title="&lt;成为简奥斯汀&gt;" trget="video"><img class="pic" src="成为简奥斯汀.jpg"></a>  
+                <a href="#" class="word">&lt;成为简奥斯汀&gt;</a>
+            </div>
+            <div class="video">
+                <a href="#"title="&lt;深夜食堂&gt;" trget="video"><img class="pic" src="深夜食堂.jpg"></a>  
+                <a href="#" class="word">&lt;深夜食堂&gt;首发片花</a>
+            </div>
+        </div>
+
+        <div class="current_text" >
+            精彩片花
+        </div>
+
+        <div class="part2" >
+            <div class="video">    
+                <a href="#"title="美丽人生" trget="video"><img class="pic" src="美丽人生.jpg"></a>  
+                <a href="#" class="word">美丽人生</a> 
+            </div>
+            <div class="video">
+                <a href="#"title="电影&lt;闭嘴，爱吧&gt;郑秀晶" trget="video"><img class="pic" src="郑秀晶.jpg"></a>  
+                <a href="#" class="word">电影&lt;闭嘴，爱吧&gt;郑秀晶</a>
+            </div>
+            <div class="video">  
+                <a href="#"title="电影&lt;三生三世十里桃花&gt;杨洋" trget="video"><img class="pic" src="杨洋.jpg"><span></span></a>  
+                <a href="#" class="word">电影&lt;三生三世十里桃花&gt;杨洋</a>  
+            </div>
+            <div class="video"> 
+                <a href="#"title="最好的我们" trget="video"><img class="pic" src="学校.jpg"><span></span></a>  
+                <a href="#" class="word">最好的我们</a>  
+            </div>
+            <div class="video"> 
+                <a href="#"title="爱丽丝漫游奇境记2" trget="video"><img class="pic" src="爱丽丝.jpg"></a>  
+                <a href="#" class="word">爱丽丝漫游奇境记2</a>
+            </div>
+            <div class="video">
+                <a href="#"title="&lt;爱无痕&gt;首发片花" trget="video"><img class="pic" src="佟丽娅.jpg"></a>  
+                <a href="#" class="word">&lt;爱无痕&gt;首发片花</a>
+            </div>
+        </div>
+</div>
+
+<!--尾部声明-->
+<div id="foot">
+    <div class="line1"></div>
+    <dl class="foot" >
+        <dd>不良信息举报电话: 18712755923</dd>
+        <dd><a target="_blank" href="#">新出网证(京)字2133130号</a></dd>       
+    </dl>
+    <dl class="foot" >
+        <dd>请使用者仔细阅读Forest<a target="_blank"   href="#" class="mr0">使用协议</a>、<a target="_blank"  href="#" class="mr0">版权声明</a>、<a  target="_bla1k" href="#" class="mr0">反盗版盗链声明</a></dd>
+        <dd>Copyright©2016 Wangyanling.com 版权所有</dd>        
+    </dl>
+    <dl class="foot" >
+        <dd><a target="_blank" href="#">京ICP证2133130号</a></dd>
+        <dd><a target="_blank" href="#">网络视听许可证2133130号</a></dd>       
+    </dl>    
+</div>
+
+</body>
+</html>
