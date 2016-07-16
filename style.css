@@ -1,0 +1,273 @@
+body{
+	font-size:14px;
+ 	font-family:"Microsoft Yahei";
+ 	margin:0 auto;
+}
+ul li{
+	list-style:none;
+}
+a{
+	text-decoration: none;
+	text-align: center;
+	color:#3B3B3B;
+}
+a:hover{
+	color:#cc0033;
+}
+#head{
+	height:80px;
+	width:1348px;
+	top:0;
+	position:fixed;
+	z-index:2;
+}
+#head_top{
+	height:80px;
+	width:1348px;
+	position:relative;
+	margin-top:0;
+	background-color:white;
+}
+ /*logo部分*/
+#logopicture{
+	position:absolute;
+	left:0;
+	top:0;
+}
+/*网页头部的用户选项列表部分*/
+#chooselist{
+ 	position:absolute;
+ 	width:350px;
+ 	top:25px;
+ 	left:200px;
+ 	border:0 solid #669933;
+ 	line-height:35px;
+ 	font-color:#669933;
+ }
+
+ /*视频搜索部分*/
+#search{
+ 	position:absolute;
+ 	width:560px;
+ 	height:60px;
+ 	top:15px;
+ 	left:600px;
+ 	line-height:28px;
+}
+#search_input{
+	width:400px;
+	height:38px;
+	border:1px solid #669933;
+	margin-top:10px;
+}
+#search_button{
+	font-size:14px;
+	color:white;
+	border:none;
+	width:60px;
+	height:43px;
+	border:1px solid #669933;
+	background-color:#669933;
+}
+#search_button:hover{
+	width:65px;
+	height:45px;
+}
+  
+ /*登录注册部分*/
+#login-signup{
+	position:absolute;
+	width:200px;
+	height:60px;
+	left:1100px;
+	top:13px;
+	line-height: 60px;
+	text-align: center;
+}
+#login-signup a{
+	font-size:17px;
+	color:#669933;
+}
+#login-signup a:hover{
+	color:red;
+}
+#login-signup #sign_up{
+	margin-left:30px;
+}
+
+/*视频类型导航条*/
+#videotype{
+ 	position:absolute;
+ 	clear:both;
+ 	width:1348px;
+ 	height:50px;
+ 	top:80px;
+ 	border:1px solid #669933;
+ 	background-color:#669933;
+}
+#videotype li{
+ 	font-size:14px;
+ 	float:left;
+ 	text-indent: 8px;
+ 	text-align:center;
+ 	width:80px;
+ 	height:50px;
+ 	background-color:#669933;
+    margin-top:-14px;
+ 	line-height: 50px;
+ 	padding-right:10px;
+}
+#videotype li a{
+ 	color:white;
+}
+ 
+  
+ /*主体部分*/
+#mainbody{
+ 	width:1345px;
+ 	margin-top:150px;
+}
+/*第一块视频部分*/
+span{
+	display:none;
+}
+.part1{
+ 	position:relative;
+ 	width:1345px;
+ 	height:280px;
+ 	margin-top:120px;
+ 	border:1px solid #669933;
+ 	font-size:16px;
+ 	background-color:#d9ebc6;
+}
+.part1 .video1{
+ 	float:left;
+ 	width:420px;
+ 	height:280px;
+ 	margin-left:20px;
+}
+.part1 .video1 .pic1{
+	width:420px;
+	height:230px;
+	margin-top:20px;
+}
+.part1 .span1{
+	background-color:black;
+	opacity: 0.6;
+	position:absolute;
+	left:20px;
+	top:20px;
+	width:420px;
+	height:230px;
+}
+.part1 .span2{
+	background-color:black;opacity: 0.6;
+	position:absolute;
+	left:460px;
+	top:20px;
+	width:420px;
+	height:230px;
+}
+.part1 .span3{
+	background-color:black;
+	opacity: 0.6;
+	position:absolute;
+	left:900px;
+	top:20px;
+	width:420px;
+	height:230px;
+}
+#container{
+	position:relative;
+	width:1320px;
+	height:280px;
+	overflow: hidden;
+}
+#list{
+	height:280px;
+	width:6600px;
+	position: absolute;
+	z-index: 1;
+}
+.arrow{
+	cursor:pointer;
+	line-height:60px;
+	text-align:center;
+	font-size: 30px;
+	font-weight:bold;
+	width:50px;
+    height:60px; 
+    position:absolute;
+    z-index: 1;
+    top:100px;
+    background-color: rgba(0,0,0,.3);
+    color:black;
+}
+#prev{
+ 	left:1px;
+}
+#next{
+ 	right:2px;
+}
+.arrow:hover{
+ 	background-color:rgba(0,0,0,0.8);
+}
+.part1 .video1 a:hover span{
+	display:block;
+}
+
+/*正在热播及精彩片花提示*/
+.current_text{
+	width:1345px;
+	height:30px;
+	border:1px solid #669933;
+	border-bottom:0;
+	border-top:0;
+	color:#35590d;
+	
+	font-size:18px;
+	text-indent: 20px;
+}
+/*正在热播视频部分*/
+.part2{
+	width:1345px;
+	height:180px;
+	border:1px solid #669933;
+	background-color:#d9ebc6;
+	}
+.video{
+	float:left;
+	width:200px;
+	height:180px;
+	margin-left:20px;
+}
+.video .pic{
+	width:200px;
+	height:130px;
+	margin-top:20px;
+}
+.part2 img:hover{
+	border:1px solid #669933;
+}
+
+/*网页底部信息部分*/
+#foot{
+	width:1345px;
+	margin-top:20px;
+	text-align:left;
+	overflow:hidden;
+}
+.foot{
+	float:left;
+	vertical-align:top;
+	width:440px;
+}
+.foot .line1{
+	border-bottom:1px solid #ccc;
+	height:0;
+	padding-top:10px;
+	margin-bottom:10px;
+	clear:left;
+}
+
+
