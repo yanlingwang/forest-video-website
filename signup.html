@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>用户注册</title>
+<style>
+p{
+  font-size:20px;
+  color:#669933;
+  }
+#logo{
+  position:absolute;
+  left:600px;
+  top:70px;
+  }
+#newuser{
+  width:600px;
+  height:200px;
+  padding-top:20px;
+  top:150px;
+  left:350px;
+  position:absolute;
+  }
+#button{
+  color:white;
+  width:65px;
+  height:30px;
+  background:#669933;
+  border:1px solid #669933;
+  margin-left:20px;
+  }
+#userName{
+  width:300px;
+  height:30px;
+  background:transparent;
+  border:1px solid #669933;
+  }
+.psd{
+  width:300px;
+  height:30px;
+  background:transparent;
+  border:1px solid #669933;
+  }
+</style>
+</head>
+<body>
+<form name="form1" method="get" action="register_result.jsp">
+  <img id="logo" src="images/logoforest.png">
+    <div align="center" id="newuser">
+      <P>用户名&nbsp;&nbsp;<input id="userName" type ="text" name="userName"size="15" height="15"></P>
+      <P>密&nbsp;码&nbsp;&nbsp;<input type ="password" class="psd"id="Password" name="Password"size="15" height="15"></P>
+      <P><input type="submit"id="button" name="submit" value="确定注册" height="15"></P>
+    </div>
+</form>
+</body>
+</html>
